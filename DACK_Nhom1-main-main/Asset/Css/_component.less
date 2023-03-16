@@ -1,0 +1,21 @@
+// out: false
+@import './_variables.less';
+a,button,input[type="submit"]{
+    &.btn{
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        background-color: @primaryColor;
+        border: none;
+        text-transform: uppercase;
+        padding: 5px 15px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            background-color: @textColor;
+        }
+    }
+}
