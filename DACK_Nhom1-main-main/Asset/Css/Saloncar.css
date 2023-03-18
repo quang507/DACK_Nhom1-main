@@ -21,21 +21,6 @@ button.btn:hover,
 input[type="submit"].btn:hover {
   background-color: #252525;
 }
-header .box-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header .box-header .logo {
-  height: 40px ;
-  flex: none;
-}
-header .box-header .box-navigation {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
-  justify-content: flex-end;
-}
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +34,9 @@ body {
 }
 img {
   max-width: 100%;
+}
+a {
+  text-decoration: none;
 }
 #top-bar {
   padding: 8px 0;
@@ -144,7 +132,7 @@ img {
 #page-title .bullets a {
   text-decoration: none;
 }
-.layer-content-inner {
+#page-title .layer-content-inner {
   font-size: 50;
   font-weight: 200;
   position: absolute;

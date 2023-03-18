@@ -1,7 +1,6 @@
 // out: false
 @import './_variables.less';
 @import './_component';
-@import './_header';
 @import './_layout';
 
 @import (css) url('//fonts.googleapis.com/css?family=Poppins:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=devanagari&amp;display=swap');
@@ -25,7 +24,10 @@ body {
 img {
   max-width: 100%;
 }
+a {
+  text-decoration: none;
 
+}
 #top-bar {
   padding: 8px 0;
   font-size: 0.875rem;
@@ -117,7 +119,6 @@ img {
     }
   }
 }
-
 #page-title {
   position: relative;
 
@@ -142,7 +143,7 @@ img {
     border: 2px;
 
     }
-  }
+  
 
   .layer-content-inner {
     font-size: 50;
@@ -157,7 +158,7 @@ img {
     justify-content: center;
     color: #fff;
   }
-
+}
 #page-content {
   margin-top: 50px;
 
@@ -398,7 +399,6 @@ img {
     position: relative;
   }
 }
-
 #product {
   text-align: center;
   padding-top: 70px;
