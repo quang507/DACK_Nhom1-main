@@ -116,21 +116,9 @@ a {
 #page-title {
   position: relative;
 }
-#page-title #slideshow {
+#page-title .slideshow {
   display: block;
   margin: 0 auto;
-}
-#page-title .bullets {
-  position: absolute;
-  z-index: 2;
-  padding: 10px 0;
-  text-align: center;
-  width: 100%;
-  border-radius: 50%;
-  border: 2px;
-}
-#page-title .bullets a {
-  text-decoration: none;
 }
 #page-title .layer-content-inner {
   font-size: 50;
